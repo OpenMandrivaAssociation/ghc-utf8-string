@@ -1,0 +1,8 @@
+diff -urN utf8-string-0.3.7/Setup.hs utf8-string-0.3.7-patched/Setup.hs
+--- utf8-string-0.3.7/Setup.hs	1970-01-01 10:00:00.000000000 +1000
++++ utf8-string-0.3.7-patched/Setup.hs	2012-09-29 07:34:02.000000000 +1100
+@@ -0,0 +1,4 @@
++module Main where
++
++import Distribution.Simple
++main = defaultMain
