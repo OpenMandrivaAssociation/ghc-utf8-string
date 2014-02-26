@@ -5,7 +5,7 @@
 Summary:	Haskell UTF8-String library
 Name:		ghc-utf8-string
 Version:	0.3.7
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Other
 Url:		http://hackage.haskell.org/package/%{module}
@@ -15,6 +15,7 @@ Patch0:		utf8-string-0.3.7-setup.patch
 BuildRequires:	ghc-devel
 BuildRequires:	haddock
 BuildRequires:	haskell-macros
+Requires(post,preun):	ghc
 
 %description
 A UTF8-String library for Haskell.
